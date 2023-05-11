@@ -17,11 +17,9 @@
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/95aa913d-3bd9-4d0c-9d41-8fc55051cab2)
 
 לאחר לחיצה על הכפתור:
-![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/66016d05-0751-4723-bb9e-ac8c9740f99a)
+![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/fc35a36c-5a7a-4cdc-9812-9a6c6d36dc14)
 
 
-
-![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/519a34e3-f401-4523-821d-c7e7005f8a81)
 
 אפשרות נוספת שמספקת המערכת היא לצפות בגרף המייצג את כמות החברים בקופה שנמצאו חיוביים לקורונה בכל יום בחודש באחרון וכן את מספר חברי הקופה שלא התחסנו כלל, לדוג':
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/213cda1c-f57f-4ada-9d29-25fd1cd531c6)
