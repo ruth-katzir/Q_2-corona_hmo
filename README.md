@@ -17,6 +17,9 @@
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/95aa913d-3bd9-4d0c-9d41-8fc55051cab2)
 
 לאחר לחיצה על הכפתור:
+![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/66016d05-0751-4723-bb9e-ac8c9740f99a)
+
+
 
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/519a34e3-f401-4523-821d-c7e7005f8a81)
 
