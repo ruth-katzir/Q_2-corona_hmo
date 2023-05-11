@@ -31,7 +31,7 @@
 
 # תלויות חיצוניות
 
-For a project in VS Code that uses Node.js, React, MySQL with Sequelize ORM, Express, and Axios, you will need the following external dependencies:
+That project in VS Code that uses Node.js, React, MySQL with Sequelize ORM, Express, and Axios, you will need the following external dependencies:
 
 1. Node.js: A JavaScript runtime environment. You can download and install it from the official Node.js website: https://nodejs.org
 
