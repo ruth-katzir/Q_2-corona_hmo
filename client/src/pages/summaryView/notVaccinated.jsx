@@ -44,7 +44,7 @@ export default function VaccinationsBar() {
 
     return (
         <>
-            <h1>{data} מספר חברי הקופה שלא התחסנו כלל - הוא</h1>
+            <h1>{data} :מספר חברי הקופה שלא התחסנו כלל</h1>
         </>
     );
 }
