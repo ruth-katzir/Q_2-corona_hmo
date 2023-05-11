@@ -45,6 +45,7 @@ try {
       if (!errors.isEmpty()) {
         return res.status(400).json("cellNumber is not valid");
       }
+
       next();
     }
   ];
@@ -56,14 +57,20 @@ try {
   app.use(cookieParser());
 
   //routes
+
   app.post('/api/member', [
     validateID,
     validateCellphone,
     validateDate,
-  ], (req, res) => {
-    // If the request passes all validations,the request proceed with further logic
-    res.json({ message: 'Registration successful' });
+  ], (req, res, next) => {
+    // If the request passes all validations, the request proceeds with further logic
+    console.log('Validation successful');
+
+    // Call the route handler of the '/api/member' route
+    require('./routes/memberRoutes')(req, res, next);
   });
+
+
 
 
   app.use("/api/member", require("./routes/memberRoutes"));
