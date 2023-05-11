@@ -31,7 +31,7 @@
 
 # תלויות חיצוניות
 
-To set up a project in VS Code using Node.js, React, MySQL with Sequelize ORM, Express, Axios, body-parser, cors, cookie-parser, express-validator, and dotenv, you will need the following external dependencies:
+To set up a that project in VS Code using Node.js, React, MySQL with Sequelize ORM, Express, Axios, body-parser, cors, cookie-parser, express-validator, and dotenv, you will need the following external dependencies:
 
 1. Node.js: A JavaScript runtime environment. You can download and install it from the official Node.js website: https://nodejs.org
 
