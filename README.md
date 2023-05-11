@@ -4,32 +4,44 @@
 המערכת מאפשרת הכנסה ושליפה של נתונים ממאגר הנתונים של קופת החולים תוך שמירה על תקינות הקלט באמצעות middlewares מיוחדים בעת הכנסת חבר חדש לקופת החולים.
 # קריאות API
 # members
-get: http://localhost:3600/api/member
+get:
+http://localhost:3600/api/member
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/f42ce593-29d2-4cbb-b4ac-25aec4338025)
-getById: http://localhost:3600/api/member/213398738
+getById:
+http://localhost:3600/api/member/213398738
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/0bd496ea-ea3d-4ad9-b976-c600a61d343d)
-post: http://localhost:3600/api/member
+post:
+http://localhost:3600/api/member
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/b023cc37-4209-4301-b793-0de0c9b73152)
 
 # morbidity
-getAll: http://localhost:3600/api/morbidity
+getAll:
+http://localhost:3600/api/morbidity
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/5010becc-8843-40b4-a7f7-356d71d009d8)
-getById: http://localhost:3600/api/morbidity/213398738
+getById:
+http://localhost:3600/api/morbidity/213398738
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/b22365c3-0016-422c-accf-47113b0a3270)
-post: http://localhost:3600/api/morbidity
+post:
+http://localhost:3600/api/morbidity
 
 # vaccine
-get: http://localhost:3600/api/vaccine
-//getByCode: http://localhost:3600/api/vaccine/1
-post: http://localhost:3600/api/vaccine
+get:
+http://localhost:3600/api/vaccine
+getByCode:
+http://localhost:3600/api/vaccine/1
+post:
+http://localhost:3600/api/vaccine
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/c5a7c531-8328-469b-8128-8130a7b5a777)
 
 # vaccination
-get: http://localhost:3600/api/vaccination
+get:
+http://localhost:3600/api/vaccination
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/672f4111-4d66-467b-8309-75992b307990)
-getById: http://localhost:3600/api/vaccination/213398738
+getById:
+http://localhost:3600/api/vaccination/213398738
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/9c98cb5e-720b-4663-934f-812ce3a759ad)
-post: http://localhost:3600/api/vaccination
+post:
+http://localhost:3600/api/vaccination
 ![Uploading image.png…]()
 
 
