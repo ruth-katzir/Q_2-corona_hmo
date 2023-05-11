@@ -9,12 +9,7 @@ class schedulesController {
         console.log(memberId, name, city, street, buildingNumber, phoneNumber, cellNumber, DateOfBirth, imgPath);
         if (!memberId || !name || !city || !street || !buildingNumber || !phoneNumber || !cellNumber || !DateOfBirth)
             return res.status(400).json({ message: 'All fields are required' })
-        // const isCellPhoneValid = validatePhoneNumber(cellNumber);
-        // if (!isCellPhoneValid) {
-        //     return res.status(400).json({ message: 'cell phone not valid' })
-        // }
         const member = await memberDal.addNewMember(memberId, name, city, street, buildingNumber, phoneNumber, cellNumber, DateOfBirth, imgPath)
-
         if (!member)
             return res.status(400).json({ message: 'Invalid member data received' })
         return res.status(201).json({ message: 'New member created' })
@@ -31,8 +26,6 @@ class schedulesController {
 
     //get member by member id
     getMemberByMemberId = async (req, res) => {
-        console.log("getMemberByMemberId");
-        console.log(req.params.memberId);
         const member = await memberDal.getMemberByMemberId(req.params.memberId);
         if (!member) {
             return res.status(400).json({ message: 'No member found' })

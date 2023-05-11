@@ -5,7 +5,6 @@ class vaccineController {
     //create new vaccine
     createNewVaccine = async (req, res) => {
         const { vaccineManufacturer } = req.body;
-        console.log(vaccineManufacturer);
         if (!vaccineManufacturer)
             return res.status(400).json({ message: 'All fields are required' })
         const vaccine = await vaccineDal.addNewVaccine(vaccineManufacturer);

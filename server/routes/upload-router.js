@@ -10,5 +10,4 @@ router.route("/")
     .post(upload.single("file"), uploadController.upload)
     .get(upload.single("file"), uploadController.download)
 
-
 module.exports = router;

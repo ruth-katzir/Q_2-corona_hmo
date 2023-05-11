@@ -25,7 +25,6 @@ class coronaController {
 
     //get morbidity by member id
     getMorbidityByMemberId = async (req, res) => {
-        console.log("innnnnnnnnn");
         const morbidity = await morbidityDal.getMorbidityByMemberId(req.params.memberId);
         if (!morbidity) {
             return res.status(400).json({ message: 'No morbidity found' })

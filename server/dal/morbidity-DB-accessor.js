@@ -20,9 +20,7 @@ class morbidityAccessor {
 
     //get morbidity by member id
     getMorbidityByMemberId = async (memberId) => {
-        console.log(memberId);
         const morbidity = await Morbidity.findOne({ where: { memberId: memberId } });
-        console.log(morbidity);
         return morbidity;
     }
 }
