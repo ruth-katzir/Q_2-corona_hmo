@@ -24,7 +24,8 @@
 
 
 אפשרות נוספת שמספקת המערכת היא לצפות בגרף המייצג את כמות החברים בקופה שנמצאו חיוביים לקורונה בכל יום בחודש באחרון וכן את מספר חברי הקופה שלא התחסנו כלל, לדוג':
-![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/64e90436-08b7-4d39-91f1-1060f0e84825)
+![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/76c7baf2-4ff4-4985-af34-bb4e9badd88b)
+
 
 
 
