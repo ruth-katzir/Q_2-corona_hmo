@@ -85,3 +85,27 @@ To set up a that project in VS Code using Node.js, React, MySQL with Sequelize O
 These are the essential dependencies for your Node.js, React, MySQL with Sequelize ORM, Express, Axios, body-parser, cors, cookie-parser, express-validator, and dotenv project. Remember to run these commands in the root directory of your project, where the package.json file is located. The dependencies will be installed and managed by npm (Node Package Manager) or yarn.
 
 Make sure to import and require the necessary modules in your project files to utilize their functionality effectively.
+
+# הרמת השירותים השונים
+
+To set up the dependencies for your project, follow these steps:
+
+1. Create a new project directory or navigate to an existing project directory in your terminal.
+
+2. Initialize a new Node.js project by running the following command:
+   ```
+   npm init
+   ```
+
+   This will create a `package.json` file in your project directory.
+
+3. Install each dependency using the `npm install` command. For example, to install React, you would run:
+   ```
+   npm install react
+   ```
+
+   Repeat this step for each dependency you want to install, using the corresponding package name.
+
+4. After installing all the dependencies, your `package.json` file will contain a `dependencies` section with the installed packages.
+
+That's it! You have successfully set up the dependencies for your project. You can now start using the installed packages and their functionalities in your project's code.
