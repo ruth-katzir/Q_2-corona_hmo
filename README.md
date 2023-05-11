@@ -3,7 +3,7 @@
 # צד שרת 
 המערכת מאפשרת הכנסה ושליפה של נתונים ממאגר הנתונים של קופת החולים תוך שמירה על תקינות הקלט באמצעות middlewares מיוחדים בעת הכנסת חבר חדש לקופת החולים.
 # קריאות API
-//members
+# members
 get: http://localhost:3600/api/member
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/f42ce593-29d2-4cbb-b4ac-25aec4338025)
 getById: http://localhost:3600/api/member/213398738
@@ -11,20 +11,20 @@ getById: http://localhost:3600/api/member/213398738
 post: http://localhost:3600/api/member
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/b023cc37-4209-4301-b793-0de0c9b73152)
 
-//morbidity
+# morbidity
 getAll: http://localhost:3600/api/morbidity
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/5010becc-8843-40b4-a7f7-356d71d009d8)
 getById: http://localhost:3600/api/morbidity/213398738
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/b22365c3-0016-422c-accf-47113b0a3270)
 post: http://localhost:3600/api/morbidity
 
-//vaccine
+# vaccine
 get: http://localhost:3600/api/vaccine
 //getByCode: http://localhost:3600/api/vaccine/1
 post: http://localhost:3600/api/vaccine
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/c5a7c531-8328-469b-8128-8130a7b5a777)
 
-//vaccination
+# vaccination
 get: http://localhost:3600/api/vaccination
 ![image](https://github.com/ruth-katzir/Q_2-corona_hmo/assets/133040769/672f4111-4d66-467b-8309-75992b307990)
 getById: http://localhost:3600/api/vaccination/213398738
