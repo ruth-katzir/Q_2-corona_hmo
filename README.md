@@ -31,7 +31,7 @@
 
 # תלויות חיצוניות
 
-That project in VS Code that uses Node.js, React, MySQL with Sequelize ORM, Express, and Axios, you will need the following external dependencies:
+To set up a project in VS Code using Node.js, React, MySQL with Sequelize ORM, Express, Axios, body-parser, cors, cookie-parser, express-validator, and dotenv, you will need the following external dependencies:
 
 1. Node.js: A JavaScript runtime environment. You can download and install it from the official Node.js website: https://nodejs.org
 
@@ -57,6 +57,31 @@ That project in VS Code that uses Node.js, React, MySQL with Sequelize ORM, Expr
    npm install axios
    ```
 
-These are the essential dependencies for your Node.js, React, MySQL with Sequelize ORM, Express, and Axios project. Remember to run these commands in the root directory of your project, where the `package.json` file is located. The dependencies will be installed and managed by npm (Node Package Manager) or yarn.
+7. body-parser: A middleware for parsing HTTP request bodies. To install body-parser, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install body-parser
+   ```
+
+8. cors: A middleware for enabling Cross-Origin Resource Sharing (CORS) in Express. To install cors, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install cors
+   ```
+
+9. cookie-parser: A middleware for parsing cookies in Express. To install cookie-parser, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install cookie-parser
+   ```
+
+10. express-validator: A set of express.js middlewares for input validation. To install express-validator, open a terminal in your project's root directory and run the following command:
+    ```
+    npm install express-validator
+    ```
+
+11. dotenv: A module for loading environment variables from a .env file. To install dotenv, open a terminal in your project's root directory and run the following command:
+    ```
+    npm install dotenv
+    ```
+
+These are the essential dependencies for your Node.js, React, MySQL with Sequelize ORM, Express, Axios, body-parser, cors, cookie-parser, express-validator, and dotenv project. Remember to run these commands in the root directory of your project, where the package.json file is located. The dependencies will be installed and managed by npm (Node Package Manager) or yarn.
 
 Make sure to import and require the necessary modules in your project files to utilize their functionality effectively.
