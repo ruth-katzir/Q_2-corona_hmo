@@ -30,3 +30,33 @@
 
 
 # תלויות חיצוניות
+
+For a project in VS Code that uses Node.js, React, MySQL with Sequelize ORM, Express, and Axios, you will need the following external dependencies:
+
+1. Node.js: A JavaScript runtime environment. You can download and install it from the official Node.js website: https://nodejs.org
+
+2. React: A JavaScript library for building user interfaces. React is typically installed as a project dependency using npm or yarn. To install React, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install react
+   ```
+
+3. MySQL: A popular relational database management system. You need to install MySQL server on your machine. You can download it from the official MySQL website: https://www.mysql.com/downloads/
+
+4. Sequelize: A promise-based ORM for Node.js that supports various databases, including MySQL. To install Sequelize, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install sequelize
+   ```
+
+5. Express: A fast and minimalist web application framework for Node.js. To install Express, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install express
+   ```
+
+6. Axios: A popular HTTP client library for making API requests from Node.js or browsers. To install Axios, open a terminal in your project's root directory and run the following command:
+   ```
+   npm install axios
+   ```
+
+These are the essential dependencies for your Node.js, React, MySQL with Sequelize ORM, Express, and Axios project. Remember to run these commands in the root directory of your project, where the `package.json` file is located. The dependencies will be installed and managed by npm (Node Package Manager) or yarn.
+
+Make sure to import and require the necessary modules in your project files to utilize their functionality effectively.
