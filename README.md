@@ -67,17 +67,12 @@ To set up a that project in VS Code using Node.js, React, MySQL with Sequelize O
    npm install cors
    ```
 
-9. cookie-parser: A middleware for parsing cookies in Express. To install cookie-parser, open a terminal in your project's root directory and run the following command:
-   ```
-   npm install cookie-parser
-   ```
-
-10. express-validator: A set of express.js middlewares for input validation. To install express-validator, open a terminal in your project's root directory and run the following command:
+9. express-validator: A set of express.js middlewares for input validation. To install express-validator, open a terminal in your project's root directory and run the following command:
     ```
     npm install express-validator
     ```
 
-11. dotenv: A module for loading environment variables from a .env file. To install dotenv, open a terminal in your project's root directory and run the following command:
+10. dotenv: A module for loading environment variables from a .env file. To install dotenv, open a terminal in your project's root directory and run the following command:
     ```
     npm install dotenv
     ```
